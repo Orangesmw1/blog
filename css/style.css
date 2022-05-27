@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------body--------- */
+.body {
+    
+}
+
+/* ------header------- */
+.header {
+    padding-bottom: 15px;
+}
+
+.header img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    border-bottom-left-radius: 43%;
+    
+}
+
+.header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(248, 174, 14);
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    font-size: 35px;
+}
+
+.header i {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: rgb(248, 174, 14);
+    font-size: 35px;
+}
+
+/* -------introduce-------- */
+.introduce {
+    font-family: cursive;
+    background-color: rgba(248, 174, 14, 0.781) ;
+    padding: 0 20px;
+}
+
+.introduce .introduce-home {
+    padding: 10px 0;
+}
+
+.introduce-home span {
+    font-size: 25px;
+}
+
+.introduce-home span:hover {
+    cursor: pointer;
+}
+
+.introduce-home i {
+    font-size: 20px;
+}
+
+.introduce .introduce-title { 
+
+}
+
+.introduce-title h1 {
+    margin-bottom: 15px ;
+}
+
+.introduce-title p {
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.introduce .introduce-options { 
+    padding: 20px 0;
+}
+
+.introduce-options span { 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.introduce-options .options {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.options ul {
+    list-style-type: none;
+
+}
+
+.options ul hr {
+    border: 1px solid black;
+}
+
+.options ul li {
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 0 20px 0;
+}
+
+.options ul li:hover {
+    cursor: pointer;
+
+}
+
+.options ul li i{
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.options ul li h3{
+    display: inline;
+    word-break: break-all;
+}
+
+.options ul li h3:hover {
+    text-decoration: underline 2px;
+}
+
+/* -------content------- */
+.content {
+    font-family: cursive;
+    margin: 20px 0;
+}
+
+.content .content-things-to-do {
+    padding: 0 20px;
+}
+
+/* ND1 - ND2  */
+.content-things-to-do .content-1-2 h1 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.content-things-to-do .content-1-2 p {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.content-things-to-do .content-1-2 .block-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.block-img img {
+    object-fit: cover;
+    width: 325px;
+}
+
+.content-things-to-do .content-1-2 .img-streets-3 {
+    object-fit: cover;
+    width: 100%;
+}
+
+.content-things-to-do .content-1-2 .block-find-hotel {
+   margin: 10px 0;
+}
+
+.block-find-hotel p {
+    display: inline;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.block-find-hotel p:hover {
+    cursor: pointer;
+    background-color: rgb(248, 174, 14);  
+}
+
+/* ND3 */
+.content-things-to-do .content-3 {
+
+}
+
+.content-3 h1 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.content-3 p {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.content-3 img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.content-3 .block-find-tour p {
+    display: inline;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.content-3 .block-find-tour p:hover {
+    cursor: pointer;
+    background-color: rgb(248, 174, 14);  
+}
+
+/* ND4  */
+.content-things-to-do .content-4 {
+
+}
+
+.content-4 h1 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.content-4 p {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.content-4 img {
+    object-fit: cover;
+    width: 100%;
+}
